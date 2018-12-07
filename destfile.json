@@ -1,0 +1,1105 @@
+{
+    "total": 10,
+    "offset": 0,
+    "limit": 20,
+    "language": "en",
+    "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+    "relation": "hasTopConcept",
+    "_links": {
+        "self": {
+            "href": "https://ec.europa.eu/esco/api/resource/related?uri=http://data.europa.eu/esco/concept-scheme/occupations&relation=hasTopConcept&limit=20&offset=0&language=en&full=true"
+        }
+    },
+    "_embedded": {
+        "hasTopConcept": [
+            {
+                "className": "Concept",
+                "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+                "uri": "http://data.europa.eu/esco/isco/C9",
+                "title": "Elementary occupations",
+                "preferredLabel": {
+                    "no": "Renholdere",
+                    "de": "Hilfsarbeitskräfte",
+                    "sv": "Arbete utan krav på särskild yrkesutbildning",
+                    "fi": "Muut työntekijät",
+                    "pt": "Trabalhadores não qualificados/Profissões elementares",
+                    "bg": "Професии, неизискващи специална квалификация",
+                    "mt": "Xogħolijiet elementari",
+                    "el": "Ανειδίκευτοι εργάτες, χειρωνάκτες και μικροεπαγγελματίες",
+                    "lt": "Nekvalifikuoti darbininkai",
+                    "en": "Elementary occupations",
+                    "lv": "Vienkāršās profesijas",
+                    "hr": "Jednostavna zanimanja",
+                    "it": "Professioni non qualificate",
+                    "fr": "Professions élémentaires",
+                    "hu": "Egyszerű foglalkozások",
+                    "es": "Ocupaciones elementales",
+                    "et": "Lihttöölised",
+                    "cs": "Pomocní a nekvalifikovaní pracovníci",
+                    "sk": "Pomocní a nekvalifikovaní pracovníci",
+                    "sl": "Poklici za preprosta dela",
+                    "pl": "Pracownicy przy pracach prostych",
+                    "da": "Andet manuelt arbejde",
+                    "ro": "Muncitori necalificați",
+                    "nl": "Elementaire beroepen"
+                },
+                "code": "9",
+                "codes": [
+                    {
+                        "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+                        "value": "9"
+                    },
+                    {
+                        "datatype": "",
+                        "value": "9"
+                    }
+                ],
+                "description": {
+                    "en": {
+                        "literal": "Elementary occupations involve the performance of simple and routine tasks which may require the use of hand-held tools and considerable physical effort. Most occupations in this major group require skills at the first ISCO skill level.\nTasks performed by workers in elementary occupations usually include:  cleaning, restocking supplies and performing basic maintenance in apartments, houses, kitchens, hotels, offices and other buildings; washing cars and windows; helping in kitchens and performing simple tasks in food preparation; delivering messages or goods; carrying luggage and handling baggage and freight;  stocking vending-machines or reading and emptying meters; collecting and sorting refuse; sweeping streets and similar places;  performing various simple farming, fishing, hunting or trapping tasks;  performing simple tasks connected with mining, construction and manufacturing including product-sorting; packing and unpacking produce by hand, and filling shelves; providing various street services; pedalling or hand-guiding vehicles to transport passengers and goods; driving animal-drawn vehicles or machinery.  Supervision of other workers may be included.\nOccupations in this major group are classified into the following sub-major groups:\n91 Cleaners and Helpers\n92 Agricultural, Forestry and Fishery Labourers\n93 Labourers in Mining, Construction, Manufacturing and Transport\n94 Food Preparation Assistants\n95 Street and Related Sales and Services Workers\n96 Refuse Workers and Other Elementary Workers\n",
+                        "mimetype": "plain/text"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9&language=en",
+                        "uri": "http://data.europa.eu/esco/isco/C9",
+                        "title": "Elementary occupations"
+                    },
+                    "isTopConceptInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        }
+                    ],
+                    "isInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        }
+                    ],
+                    "narrowerConcept": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C91&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C91",
+                            "title": "Cleaners and helpers",
+                            "code": "91"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C96&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C96",
+                            "title": "Refuse workers and other elementary workers",
+                            "code": "96"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C94&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C94",
+                            "title": "Food preparation assistants",
+                            "code": "94"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C95&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C95",
+                            "title": "Street and related sales and service workers",
+                            "code": "95"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C92&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C92",
+                            "title": "Agricultural, forestry and fishery labourers",
+                            "code": "92"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C93&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C93",
+                            "title": "Labourers in mining, construction, manufacturing and transport",
+                            "code": "93"
+                        }
+                    ]
+                },
+                "_embedded": {}
+            },
+            {
+                "className": "Concept",
+                "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+                "uri": "http://data.europa.eu/esco/isco/C8",
+                "title": "Plant and machine operators and assemblers",
+                "preferredLabel": {
+                    "de": "Bediener von Anlagen und Maschinen und Montageberufe",
+                    "no": "Prosess- og maskinoperatører",
+                    "fi": "Prosessi- ja kuljetustyöntekijät",
+                    "sv": "Process- och maskinoperatörsarbete, transportarbete m.m.",
+                    "pt": "Operadores de instalações e máquinas e trabalhadores da montagem",
+                    "bg": "Машинни оператори и монтажници",
+                    "mt": "Operaturi u muntaturi tal-impajnti u l-magni",
+                    "el": "Χειριστές βιομηχανικών εγκαταστάσεων, μηχανημάτων και εξοπλισμού και συναρμολογητές (μονταδόροι)",
+                    "lt": "Įrenginių ir mašinų operatoriai ir surinkėjai",
+                    "en": "Plant and machine operators and assemblers",
+                    "lv": "Iekārtu un mašīnu operatori un izstrādājumu montieri",
+                    "hr": "Rukovatelji/rukovateljice postrojenjima i strojevima, industrijski proizvođači/industrijske proizvođačice i sastavljači/sastavljačice proizvoda",
+                    "it": "Conduttori di impianti e macchinari e addetti al montaggio",
+                    "fr": "Conducteurs d’installations et de machines, et ouvriers de l’assemblage",
+                    "hu": "Gépkezelők, összeszerelők és járművezetők",
+                    "es": "Operadores de instalaciones y máquinas y ensambladores",
+                    "et": "Seadme- ja masinaoperaatorid ja montöörid",
+                    "cs": "Obsluha strojů a zařízení, montéři",
+                    "sk": "Operátori a montéri strojov a zariadení",
+                    "sl": "Upravljavci/upravljavke strojev in naprav, industrijski izdelovalci/industrijske izdelovalke in sestavljavci/sestavljavke",
+                    "pl": "Operatorzy i monterzy maszyn i urządzeń",
+                    "ro": "Operatori și asamblori la mașini și instalații",
+                    "da": "Operatør- og monteringsarbejde samt transportarbejde",
+                    "nl": "Bedieningspersoneel van machines en installaties, assembleurs"
+                },
+                "code": "8",
+                "codes": [
+                    {
+                        "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+                        "value": "8"
+                    },
+                    {
+                        "datatype": "",
+                        "value": "8"
+                    }
+                ],
+                "description": {
+                    "en": {
+                        "literal": "Plant and machine operators and assemblers operate and monitor industrial and agricultural machinery and equipment on the spot or by remote control; drive and operate trains, motor vehicles and mobile machinery and equipment; or assemble products from component parts according to strict specifications and procedures. Competent performance in most occupations in this major group requires skills at the second ISCO skill level.\nThe work mainly calls for experience with and an understanding of industrial and agricultural machinery and equipment, as well as an ability to cope with machine-paced operations and to adapt to technological innovations.  \nTasks performed by plant and machine operators and assemblers usually  include: operating and monitoring mining or other industrial machinery and equipment for processing metal, minerals, glass, ceramics, wood, paper or  chemicals; operating and monitoring machinery and equipment used to produce articles made of metal,  minerals, chemicals, rubber, plastics, wood, paper, textiles, fur or leather, and which process foodstuffs and related products; driving and operating trains and motor vehicles;  driving, operating and monitoring mobile industrial and agricultural machinery  and equipment; and assembling products from component parts according to strict  specifications and procedures. Supervision of other workers may be included.\nOccupations in this major group are classified into the following sub-major groups:\n81 Stationary Plant and Machine Operators\n82 Assemblers\n83 Drivers and Mobile Plant Operators\nNote\nOperators of machinery that involves automated control of multiple processes or functions are included in Minor Group 313:  Process control technicians.\n",
+                        "mimetype": "plain/text"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8&language=en",
+                        "uri": "http://data.europa.eu/esco/isco/C8",
+                        "title": "Plant and machine operators and assemblers"
+                    },
+                    "isTopConceptInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        }
+                    ],
+                    "isInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        }
+                    ],
+                    "narrowerConcept": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C81&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C81",
+                            "title": "Stationary plant and machine operators",
+                            "code": "81"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C82&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C82",
+                            "title": "Assemblers",
+                            "code": "82"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C83&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C83",
+                            "title": "Drivers and mobile plant operators",
+                            "code": "83"
+                        }
+                    ]
+                },
+                "_embedded": {}
+            },
+            {
+                "className": "Concept",
+                "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+                "uri": "http://data.europa.eu/esco/isco/C7",
+                "title": "Craft and related trades workers",
+                "preferredLabel": {
+                    "de": "Handwerks- und verwandte Berufe",
+                    "no": "Håndverkere",
+                    "sv": "Hantverksarbete inom byggverksamhet och tillverkning",
+                    "fi": "Rakennus-, korjaus- ja valmistustyöntekijät",
+                    "pt": "Operários, artífices e trabalhadores similares",
+                    "bg": "Квалифицирани работници и сродни на тях занаятчии",
+                    "el": "Ειδικευμένοι τεχνίτες και ασκούντες συναφή επαγγέλματα",
+                    "mt": "Ħaddiema tas-sengħa u dawk involuti f’snajja’ relatati",
+                    "lt": "Kvalifikuoti darbininkai ir amatininkai",
+                    "en": "Craft and related trades workers",
+                    "hr": "Zanimanja u obrtu i pojedinačnoj proizvodnji",
+                    "lv": "Kvalificēti strādnieki un amatnieki",
+                    "it": "Artigiani e operai specializzati",
+                    "fr": "Métiers qualifiés de l’industrie et de l’artisanat",
+                    "hu": "Szakképzettséget igénylő ipari foglalkozások",
+                    "es": "Oficiales, operarios y artesanos de artes mecánicas y de otros oficios",
+                    "et": "Oskus- ja käsitöölised",
+                    "cs": "Řemeslníci a opraváři",
+                    "sk": "Kvalifikovaní robotníci a remeselníci",
+                    "sl": "Poklici za neindustrijski način dela",
+                    "pl": "Robotnicy przemysłowi i rzemieślnicy",
+                    "da": "Håndværkspræget arbejde",
+                    "ro": "Meșteșugari și lucrători în meserii de tip artizanal",
+                    "nl": "Ambachtslieden"
+                },
+                "code": "7",
+                "codes": [
+                    {
+                        "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+                        "value": "7"
+                    },
+                    {
+                        "datatype": "",
+                        "value": "7"
+                    }
+                ],
+                "description": {
+                    "en": {
+                        "literal": "Craft and related trades workers apply specific technical and practical knowledge and skills to construct and maintain buildings; form metal; erect metal structures; set machine tools or make, fit, maintain and repair machinery, equipment or tools; carry out printing work; and produce or process foodstuffs, textiles, wooden, metal and other articles, including handicraft goods. Competent performance in most occupations in this major group requires skills at the second ISCO skill level.\nThe work is carried out by hand and by hand-powered and other tools which are used to reduce the amount of physical effort and time required for specific tasks, as well as to improve the quality of the products. The tasks call for an understanding of all stages of the production process, the materials and tools used, and the nature and purpose of the final product. \nTasks performed by craft and related trades workers usually include: constructing, maintaining and repairing buildings and other structures; casting, welding and shaping metal; installing and erecting heavy metal structures, tackle and related equipment; making machinery, tools, equipment and other metal articles; setting for operators, or setting and operating various machine tools; fitting, maintaining and repairing industrial machinery, engines, vehicles, electrical and electronic instruments and other equipment; making precision instruments, jewellery, household and other precious metal articles, pottery, glass and related products; producing handicrafts; executing printing work; producing and processing foodstuffs and various articles made of wood, textiles, leather and related materials. Supervision of other workers may be included.  Self-employed craft and related trades workers, who operate their own businesses either independently or with assistance from a small number of others, may also perform a range of tasks associated with management of the business, account and record keeping and client service, although such tasks would not normally comprise the major component of the work.\nOccupations in this major group are classified into the following sub-major groups:\n71 Building and Related Trades Workers (excluding electricians)\n72 Metal, Machinery and Related Trades Workers\n73 Handicraft and Printing Workers\n74 Electrical and Electronics Trades Workers\n75 Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers\n",
+                        "mimetype": "plain/text"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7&language=en",
+                        "uri": "http://data.europa.eu/esco/isco/C7",
+                        "title": "Craft and related trades workers"
+                    },
+                    "isTopConceptInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        }
+                    ],
+                    "isInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        }
+                    ],
+                    "narrowerConcept": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C75&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C75",
+                            "title": "Food processing, wood working, garment and other craft and related trades workers",
+                            "code": "75"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C74&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C74",
+                            "title": "Electrical and electronic trades workers",
+                            "code": "74"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C72&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C72",
+                            "title": "Metal, machinery and related trades workers",
+                            "code": "72"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C73&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C73",
+                            "title": "Handicraft and printing workers",
+                            "code": "73"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C71&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C71",
+                            "title": "Building and related trades workers, excluding electricians",
+                            "code": "71"
+                        }
+                    ]
+                },
+                "_embedded": {}
+            },
+            {
+                "className": "Concept",
+                "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+                "uri": "http://data.europa.eu/esco/isco/C6",
+                "title": "Skilled agricultural, forestry and fishery workers",
+                "preferredLabel": {
+                    "de": "Fachkräfte in Land- und Forstwirtschaft und Fischerei",
+                    "no": "Bønder",
+                    "sv": "Arbete inom jordbruk, trädgård, skogsbruk och fiske",
+                    "fi": "Maanviljelijät, metsätyöntekijät ym.",
+                    "pt": "Trabalhadores qualificados da agricultura, da silvicultura e da pesca",
+                    "bg": "Квалифицирани работници в селското, горското, ловното и рибното стопанство",
+                    "mt": "Ħaddiema tas-sengħa fl-agrikoltura, forestrija u sajd",
+                    "el": "Ειδικευμένοι γεωργοί, κτηνοτρόφοι, δασοκόμοι και αλιείς",
+                    "lt": "Kvalifikuoti žemės ūkio, miškininkystės ir žuvininkystės darbininkai",
+                    "en": "Skilled agricultural, forestry and fishery workers",
+                    "hr": "Poljoprivrednici/poljoprivrednice, šumari/šumarke, ribari/ribarke, lovci/lovkinje",
+                    "lv": "Kvalificēti lauksaimniecības, mežsaimniecības un zivsaimniecības darbinieki",
+                    "it": "Personale specializzato addetto all’agricoltura, alle foreste e alla pesca",
+                    "fr": "Agriculteurs et ouvriers qualifiés de l’agriculture, de la sylviculture et de la pêche",
+                    "hu": "Szakképesített mezőgazdasági és halászati foglalkozások",
+                    "es": "Agricultores y trabajadores calificados agropecuarios, forestales y pesqueros",
+                    "et": "Põllumajanduse, metsanduse (jahinduse) ja kalanduse oskustöölised",
+                    "cs": "Kvalifikovaní pracovníci v zemědělství, lesnictví a rybářství",
+                    "sk": "Kvalifikovaní pracovníci v poľnohospodárstve, lesníctve a rybárstve",
+                    "sl": "Kmetovalci/kmetovalke, gozdarji/gozdarke, ribiči/ribičke, lovci/lovke",
+                    "pl": "Wykwalifikowani rolnicy, robotnicy leśni i rybacy",
+                    "da": "Arbejde inden for landbrug, skovbrug og fiskeri ekskl. medhjælp",
+                    "ro": "Agricultori și lucrători calificați în agricultură, silvicultură și pescuit",
+                    "nl": "Geschoolde landbouwers, bosbouwers en vissers"
+                },
+                "code": "6",
+                "codes": [
+                    {
+                        "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+                        "value": "6"
+                    },
+                    {
+                        "datatype": "",
+                        "value": "6"
+                    }
+                ],
+                "description": {
+                    "en": {
+                        "literal": "Skilled agricultural, forestry and fishery workers grow and harvest field or tree and shrub crops; gather wild fruits and plants; breed, tend or hunt animals; produce a variety of animal husbandry products; cultivate, conserve and exploit forests; breed or catch fish; and cultivate or gather other forms of aquatic life in order to provide food, shelter and income for themselves and their households.  Competent performance in most occupations in this major group requires skills at the second ISCO skill level.\nTasks performed by skilled agricultural, forestry and fishery workers usually include: preparing the soil; sowing, planting, spraying, fertilizing and harvesting field crops; growing fruit and other tree and shrub crops; growing garden vegetables and horticultural products; gathering wild fruits and plants; breeding, raising, tending or hunting animals mainly to obtain meat, milk, hair, fur, skin, or sericultural, apiarian or other products; cultivating, conserving and exploiting forests; breeding or catching fish; cultivating or gathering other forms of aquatic life; storing and carrying out some basic  processing of their produce; selling their products to purchasers, marketing organizations or at markets. Supervision of other workers may be included.\nOccupations in this major group are classified into the following sub-major groups:\n61 Market-oriented Skilled Agricultural Workers\n62 Market-oriented Skilled Forestry, Fishery and Hunting Workers\n63 Subsistence Farmers, Fishers, Hunters and Gatherers\n",
+                        "mimetype": "plain/text"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C6&language=en",
+                        "uri": "http://data.europa.eu/esco/isco/C6",
+                        "title": "Skilled agricultural, forestry and fishery workers"
+                    },
+                    "isTopConceptInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        }
+                    ],
+                    "isInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        }
+                    ],
+                    "narrowerConcept": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C63&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C63",
+                            "title": "Subsistence farmers, fishers, hunters and gatherers",
+                            "code": "63"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C61&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C61",
+                            "title": "Market-oriented skilled agricultural workers",
+                            "code": "61"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C62&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C62",
+                            "title": "Market-oriented skilled forestry, fishery and hunting workers",
+                            "code": "62"
+                        }
+                    ]
+                },
+                "_embedded": {}
+            },
+            {
+                "className": "Concept",
+                "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+                "uri": "http://data.europa.eu/esco/isco/C1",
+                "title": "Managers",
+                "preferredLabel": {
+                    "no": "Ledere",
+                    "de": "Führungskräfte",
+                    "fi": "Johtajat",
+                    "sv": "Ledningsarbete",
+                    "pt": "Pessoal de chefia e direcção",
+                    "bg": "Ръководители",
+                    "el": "Ανώτερα διευθυντικά και διοικητικά στελέχη",
+                    "mt": "Maniġers:",
+                    "lt": "Vadovai",
+                    "en": "Managers",
+                    "hr": "Zakonodavci/zakonodavke, dužnosnici/dužnosnice i direktori/direktorice",
+                    "lv": "Vadītāji",
+                    "it": "Dirigenti",
+                    "fr": "Directeurs, cadres de direction et gérants",
+                    "hu": "Vezetők",
+                    "es": "Directores y gerentes",
+                    "et": "Juhid",
+                    "cs": "Zákonodárci, vedoucí a řídící pracovníci",
+                    "sk": "Zákonodarcovia, riadiaci pracovníci:",
+                    "sl": "Menedžerji",
+                    "pl": "Kierownicy",
+                    "da": "Ledelsesarbejde",
+                    "ro": "Membri ai corpului legislativ ai executivului, înalți conducători ai administrației publice, conducători și funcționari superiori din unitățile economico-sociale și politice",
+                    "nl": "Leidinggevende functies"
+                },
+                "code": "1",
+                "codes": [
+                    {
+                        "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+                        "value": "1"
+                    },
+                    {
+                        "datatype": "",
+                        "value": "1"
+                    }
+                ],
+                "description": {
+                    "en": {
+                        "literal": "Managers plan, direct, coordinate and evaluate the overall activities of enterprises, governments and other organizations, or of organizational units within them, and formulate and review their policies, laws, rules and regulations. Competent performance in most occupations in this major group requires skills at the fourth ISCO skill level, except for Sub-major Group 14: Hospitality, Retail and Other Services Managers, for which skills at the third ISCO skill level are generally required. \nTasks performed by managers usually include: formulating and advising on the policy, budgets, laws and regulations of enterprises, governments and other organizational units; establishing objectives and standards and formulating and evaluating programmes and policies and procedures for their implementation; ensuring appropriate systems and procedures are developed and implemented to provide budgetary control; authorizing material, human and financial resources to implement policies and programmes; monitoring and evaluating performance of the organization or enterprise and of its staff; selecting or approving the selection of  staff;  ensuring compliance with health and safety requirements; planning and directing daily operations; representing and negotiating on behalf of the government, enterprise or organizational unit managed in meetings and other forums.\nOccupations in this major group are classified into the following sub-major groups:\n11 Chief Executives, Senior Officials and Legislators\n12 Administrative and Commercial Managers\n13 Production and Specialized Services Managers\n14 Hospitality, Retail and Other Services Managers\nNotes\nIn distinguishing between managers classified in Major Group 1: Managers, and supervisors, classified in other major groups, it should be noted that both managers and supervisors may plan, organize, coordinate, control and direct the work done by others.  In addition, managers usually have responsibility for and make decisions about: the overall strategic and operational direction of a business or organizational unit (for example about the kinds, quantity and quality of goods to be produced); budgets (how much money is to be spent and for what purposes); and the selection, appointment and dismissal of staff.  Supervisors may provide advice and assistance to managers on these matters, especially in relation to staff selection and dismissal, but do not have authority to make decisions.\nIt should be noted that it is not a necessary condition that managers have responsibility for all three of strategic and operational direction, budgets and staff selection and dismissal. The degree of autonomy they exercise may also vary. The critical difference is that supervisors are responsible only for the supervision of the activities of other workers, whereas managers have overall responsibility for the operations of an organizational unit.\n",
+                        "mimetype": "plain/text"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1&language=en",
+                        "uri": "http://data.europa.eu/esco/isco/C1",
+                        "title": "Managers"
+                    },
+                    "isTopConceptInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        }
+                    ],
+                    "isInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        }
+                    ],
+                    "narrowerConcept": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C12&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C12",
+                            "title": "Administrative and commercial managers",
+                            "code": "12"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C11&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C11",
+                            "title": "Chief executives, senior officials and legislators",
+                            "code": "11"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C14&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C14",
+                            "title": "Hospitality, retail and other services managers",
+                            "code": "14"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C13&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C13",
+                            "title": "Production and specialised services managers",
+                            "code": "13"
+                        }
+                    ]
+                },
+                "_embedded": {}
+            },
+            {
+                "className": "Concept",
+                "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+                "uri": "http://data.europa.eu/esco/isco/C0",
+                "title": "Armed forces occupations",
+                "preferredLabel": {
+                    "de": "Angehörige der regulären Streitkräfte",
+                    "no": "Militære yrker og uoppgitt",
+                    "sv": "Militärt arbete",
+                    "fi": "Sotilaat",
+                    "pt": "Profissões militares",
+                    "bg": "Професии във въоръжените сили",
+                    "mt": "Xogħolijiet fil-forzi armati",
+                    "el": "Ένοπλες δυνάμεις",
+                    "lt": "Ginkluotųjų pajėgų profesijos",
+                    "en": "Armed forces occupations",
+                    "hr": "Vojna zanimanja",
+                    "lv": "Armijas profesijas",
+                    "it": "Forze armate",
+                    "fr": "Professions militaires",
+                    "hu": "Fegyveres erők",
+                    "es": "Ocupaciones militares",
+                    "et": "Sõjaväelased",
+                    "cs": "Zaměstnanci v ozbrojených silách",
+                    "sk": "Príslušníci ozbrojených síl",
+                    "sl": "Vojaški poklici",
+                    "pl": "Siły zbrojne",
+                    "da": "Militært arbejde",
+                    "ro": "Forțele armate",
+                    "nl": "Beroepen bij de strijdkrachten"
+                },
+                "code": "0",
+                "codes": [
+                    {
+                        "datatype": "",
+                        "value": "0"
+                    },
+                    {
+                        "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+                        "value": "0"
+                    }
+                ],
+                "description": {
+                    "en": {
+                        "literal": "Armed forces occupations include all jobs held by members of the armed forces.  Members of the armed forces are those personnel who are currently serving in the armed forces, including auxiliary services, whether on a voluntary or compulsory basis, and who are not free to accept civilian employment and are subject to military discipline. Included are regular members of the army, navy, air force and other military services, as well as conscripts enrolled for military training or other service for a specified period.\nOccupations in this major group are classified into the following sub-major groups:\n01  Commissioned Armed Forces Officers\n02  Non-commissioned Armed Forces Officers\n03  Armed Forces Occupations, Other Ranks\nExcluded from this group are: \n -  jobs held by persons in civilian employment of government establishments concerned with defence issues;\n -  police (other than military police);\n -  customs inspectors and members of border or other armed civilian services.\nNotes\nMany jobs performed by members of the armed forces are similar, in terms of the nature of the work performed, to civilian occupations such as medical doctors, radio operators, cooks, secretaries and heavy truck drivers.  Conceptually, it may be appropriate, therefore, to classify such jobs in the armed forces with similar civilian jobs.  This approach is adopted in several national occupation classifications.  Typically such classifications also identify a number of military-specific occupational groups.  In many countries, however, it is not possible to produce information about the nature of the work performed by members of the armed forces.  In adapting ISCO-08 for national purposes countries may wish, therefore, to consider what approach best suits their circumstances and user needs.  For purposes of international comparability, however, where data pertaining to members of the armed forces are reported and classified by occupation, they should be included, where possible, in ISCO-08 Major Group 0: Armed Forces Occupations.\n",
+                        "mimetype": "plain/text"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C0&language=en",
+                        "uri": "http://data.europa.eu/esco/isco/C0",
+                        "title": "Armed forces occupations"
+                    },
+                    "isTopConceptInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        }
+                    ],
+                    "isInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        }
+                    ],
+                    "narrowerConcept": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C01&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C01",
+                            "title": "Commissioned armed forces officers",
+                            "code": "01"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C03&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C03",
+                            "title": "Armed forces occupations, other ranks",
+                            "code": "03"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C02&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C02",
+                            "title": "Non-commissioned armed forces officers",
+                            "code": "02"
+                        }
+                    ]
+                },
+                "_embedded": {}
+            },
+            {
+                "className": "Concept",
+                "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+                "uri": "http://data.europa.eu/esco/isco/C5",
+                "title": "Service and sales workers",
+                "preferredLabel": {
+                    "de": "Dienstleistungsberufe und Verkäufer",
+                    "no": "Salgs- og serviceyrker",
+                    "fi": "Palvelu- ja myyntityöntekijät",
+                    "sv": "Service-, omsorgs- och försäljningsarbete",
+                    "pt": "Pessoal dos serviços e vendedores",
+                    "bg": "Персонал, зает с услуги за населението, търговията и охраната",
+                    "el": "Απασχολούμενοι στην παροχή υπηρεσιών και πωλητές",
+                    "mt": "Ħaddiema involuti fil-qasam tas-servizzi u tal-bejgħ",
+                    "lt": "Paslaugų sektoriaus darbuotojai ir pardavėjai",
+                    "en": "Service and sales workers",
+                    "lv": "Pakalpojumu un tirdzniecības darbinieki",
+                    "hr": "Uslužna i trgovačka zanimanja",
+                    "it": "Professioni nelle attività commerciali e nei servizi",
+                    "fr": "Personnel des services directs aux particuliers, commerçants et vendeurs",
+                    "hu": "Szolgáltatási és értékesítési foglalkozások",
+                    "es": "Trabajadores de los servicios y vendedores de comercios y mercados",
+                    "et": "Teenindus- ja müügitöötajad",
+                    "cs": "Pracovníci ve službách a prodeji",
+                    "sk": "Pracovníci v službách a obchode",
+                    "sl": "Poklici za storitve, prodajalci/prodajalke",
+                    "pl": "Pracownicy usług i sprzedawcy",
+                    "ro": "Lucrători operativi în servicii și comerț",
+                    "da": "Service- og salgsarbejde",
+                    "nl": "Dienstverlenend personeel en verkopers"
+                },
+                "code": "5",
+                "codes": [
+                    {
+                        "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+                        "value": "5"
+                    },
+                    {
+                        "datatype": "",
+                        "value": "5"
+                    }
+                ],
+                "description": {
+                    "en": {
+                        "literal": "Services and sales workers provide personal and protective services related to travel, housekeeping, catering, personal care, protection against fire and unlawful acts; or demonstrate and sell goods in wholesale or retail shops and similar establishments, as well as at stalls and on markets.   Competent performance in most occupations in this major group requires skills at the second ISCO skill level.\nTasks performed by services and sales workers usually include: organizing and providing services during travel;  housekeeping; preparing and serving of food and beverages; caring for children;  providing personal and basic health care at homes or in institutions, as well as hairdressing, beauty treatment and companionship; telling fortunes; embalming and arranging funerals; providing security services and protecting individuals and property against fire and unlawful acts; enforcing of law and order;  posing as models for advertising, artistic creation and display of goods;  selling goods in wholesale or retail establishments, as well as at stalls and on markets; and demonstrating goods to potential customers.  Supervision of other workers may be included.\nOccupations in this major group are classified into the following sub-major groups:\n51 Personal Services Workers\n52 Sales Workers\n53 Personal Care Workers\n54 Protective Services Workers\n",
+                        "mimetype": "plain/text"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5&language=en",
+                        "uri": "http://data.europa.eu/esco/isco/C5",
+                        "title": "Service and sales workers"
+                    },
+                    "isTopConceptInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        }
+                    ],
+                    "isInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        }
+                    ],
+                    "narrowerConcept": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C53&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C53",
+                            "title": "Personal care workers",
+                            "code": "53"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C54&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C54",
+                            "title": "Protective services workers",
+                            "code": "54"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C51&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C51",
+                            "title": "Personal service workers",
+                            "code": "51"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C52&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C52",
+                            "title": "Sales workers",
+                            "code": "52"
+                        }
+                    ]
+                },
+                "_embedded": {}
+            },
+            {
+                "className": "Concept",
+                "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+                "uri": "http://data.europa.eu/esco/isco/C3",
+                "title": "Technicians and associate professionals",
+                "preferredLabel": {
+                    "de": "Techniker und gleichrangige nichttechnische Berufe",
+                    "no": "Høyskoleyrker",
+                    "sv": "Arbete som kräver kortare högskoleutbildning eller motsvarande kunskaper",
+                    "fi": "Asiantuntijat",
+                    "pt": "Técnicos e profissões de nível intermédio",
+                    "bg": "Техници и приложни специалисти",
+                    "mt": "Professjonisti tekniċi u assoċjati",
+                    "el": "Τεχνικοί και ασκούντες συναφή επαγγέλματα",
+                    "lt": "Technikai ir jaunesnieji specialistai",
+                    "en": "Technicians and associate professionals",
+                    "hr": "Tehničari/tehničarke i stručni suradnici/stručne suradnice",
+                    "lv": "Speciālisti",
+                    "it": "Professioni tecniche intermedie",
+                    "fr": "Professions intermédiaires",
+                    "hu": "Technikusok és hasonló foglalkozások",
+                    "es": "Técnicos y profesionales de nivel medio",
+                    "et": "Tehnikud ja keskastme spetsialistid",
+                    "cs": "Techničtí a odborní pracovníci",
+                    "sk": "Technici a odborní pracovníci",
+                    "sl": "Tehniki/tehnice in strokovni sodelavci/strokovne sodelavke",
+                    "pl": "Technicy i inny średni personel",
+                    "da": "Arbejde, der forudsætter viden på mellemniveau",
+                    "ro": "Tehnicieni, maiștri și asimilați",
+                    "nl": "Technici en vakspecialisten"
+                },
+                "code": "3",
+                "codes": [
+                    {
+                        "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+                        "value": "3"
+                    },
+                    {
+                        "datatype": "",
+                        "value": "3"
+                    }
+                ],
+                "description": {
+                    "en": {
+                        "literal": "Technicians and associate professionals perform technical and related tasks connected with research and the application of scientific or artistic concepts and operational methods, and government or business regulations.  Competent performance in most occupations in this major group requires skills at the third ISCO skill level.\nTasks performed by technicians and associate professionals usually include: undertaking and carrying out technical work connected with research and the application of concepts and operational methods in the fields of physical sciences including engineering and technology, life sciences including the medical profession, and social sciences and humanities; initiating and carrying out various technical  services related to trade, finance and administration including administration of government laws and regulations, and to social work; providing technical support for the arts and entertainment; participating in sporting activities; executing some religious tasks. Supervision of other workers may be included.\nOccupations in this major group are classified into the following sub-major groups:\n31 Science and Engineering Associate Professionals\n32 Health Associate Professionals \n33 Business and Administration Associate Professionals\n34 Legal, Social, Cultural and Related Associate Professionals\n35 Information and Communications Technicians\n",
+                        "mimetype": "plain/text"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3&language=en",
+                        "uri": "http://data.europa.eu/esco/isco/C3",
+                        "title": "Technicians and associate professionals"
+                    },
+                    "isTopConceptInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        }
+                    ],
+                    "isInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        }
+                    ],
+                    "narrowerConcept": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C34&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C34",
+                            "title": "Legal, social, cultural and related associate professionals",
+                            "code": "34"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C32&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C32",
+                            "title": "Health associate professionals",
+                            "code": "32"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C35&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C35",
+                            "title": "Information and communications technicians",
+                            "code": "35"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C31&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C31",
+                            "title": "Science and engineering associate professionals",
+                            "code": "31"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C33&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C33",
+                            "title": "Business and administration associate professionals",
+                            "code": "33"
+                        }
+                    ]
+                },
+                "_embedded": {}
+            },
+            {
+                "className": "Concept",
+                "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+                "uri": "http://data.europa.eu/esco/isco/C2",
+                "title": "Professionals",
+                "preferredLabel": {
+                    "no": "Akademiske yrker",
+                    "de": "Akademische Berufe",
+                    "fi": "Erityisasiantuntijat",
+                    "sv": "Arbete som kräver teoretisk specialistkompetens",
+                    "pt": "Especialistas das actividades intelectuais e científicas",
+                    "bg": "Специалисти",
+                    "el": "Επαγγελματίες",
+                    "mt": "Professjonisti",
+                    "lt": "Specialistai",
+                    "en": "Professionals",
+                    "lv": "Vecākie speciālisti",
+                    "hr": "Znanstvenici/znanstvenice, inženjeri/inženjerke i stručnjaci/stručnjakinje",
+                    "it": "Professioni intellettuali e scientifiche",
+                    "fr": "Professions intellectuelles et scientifiques",
+                    "hu": "Felsőfokú képzettséget igénylő foglalkozások",
+                    "es": "Profesionales científicos e intelectuales",
+                    "et": "Tippspetsialistid",
+                    "cs": "Specialisté",
+                    "sk": "Špecialisti",
+                    "sl": "Strokovnjaki/strokovnjakinje",
+                    "pl": "Specjaliści",
+                    "da": "Arbejde, der forudsætter viden på højeste niveau inden for pågældende område",
+                    "ro": "Specialiști cu ocupații intelectuale și științifice",
+                    "nl": "Intellectuele, wetenschappelijke en artistieke beroepen"
+                },
+                "code": "2",
+                "codes": [
+                    {
+                        "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+                        "value": "2"
+                    },
+                    {
+                        "datatype": "",
+                        "value": "2"
+                    }
+                ],
+                "description": {
+                    "en": {
+                        "literal": "Professionals increase the existing stock of knowledge; apply scientific or artistic concepts and theories; teach about the foregoing in a systematic manner; or engage in any combination of these activities. Competent performance in most occupations in this major group requires skills at the fourth ISCO skill level.\nTasks performed by professionals usually include: conducting analysis and  research, and developing concepts, theories and operational methods; advising on or applying existing knowledge related to physical sciences, mathematics, engineering and technology, life sciences, medical and health services, social sciences and humanities; teaching the theory and practice of one or more disciplines at different educational levels; teaching and educating persons with learning difficulties or special needs;  providing various business, legal and social services; creating and performing works of art; providing spiritual guidance; preparing scientific papers and reports. Supervision of other workers may be included.\nOccupations in this major group are classified into the following sub-major groups:\n21 Science and Engineering Professionals\n22 Health Professionals\n23 Teaching Professionals\n24 Business and Administration Professionals\n25 Information and Communications Technology Professionals\n26 Legal, Social and Cultural Professionals\n",
+                        "mimetype": "plain/text"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2&language=en",
+                        "uri": "http://data.europa.eu/esco/isco/C2",
+                        "title": "Professionals"
+                    },
+                    "isTopConceptInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        }
+                    ],
+                    "isInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        }
+                    ],
+                    "narrowerConcept": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C23&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C23",
+                            "title": "Teaching professionals",
+                            "code": "23"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C22&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C22",
+                            "title": "Health professionals",
+                            "code": "22"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C24&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C24",
+                            "title": "Business and administration professionals",
+                            "code": "24"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C26&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C26",
+                            "title": "Legal, social and cultural professionals",
+                            "code": "26"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C21&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C21",
+                            "title": "Science and engineering professionals",
+                            "code": "21"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C25&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C25",
+                            "title": "Information and communications technology professionals",
+                            "code": "25"
+                        }
+                    ]
+                },
+                "_embedded": {}
+            },
+            {
+                "className": "Concept",
+                "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+                "uri": "http://data.europa.eu/esco/isco/C4",
+                "title": "Clerical support workers",
+                "preferredLabel": {
+                    "de": "Bürokräfte und verwandte Berufe",
+                    "no": "Kontoryrker",
+                    "fi": "Toimisto- ja asiakaspalvelutyöntekijät",
+                    "sv": "Kontors- och kundservicearbete",
+                    "pt": "Empregados administrativos",
+                    "bg": "Помощен административен персонал",
+                    "mt": "Ħaddiema li jagħtu appoġġ klerikali",
+                    "el": "Υπάλληλοι γραφείου",
+                    "lt": "Įstaigų tarnautojai",
+                    "en": "Clerical support workers",
+                    "lv": "Kalpotāji",
+                    "hr": "Administrativni službenici/administrativne službenice",
+                    "it": "Impiegati di ufficio",
+                    "fr": "Employés de type administratif",
+                    "hu": "Irodai foglalkozások",
+                    "es": "Personal de apoyo administrativo",
+                    "et": "Ametnikud",
+                    "cs": "Úředníci",
+                    "sk": "Administratívni pracovníci, úradníci",
+                    "sl": "Uradniki/uradnice za pisarniško poslovanje",
+                    "pl": "Pracownicy biurowi",
+                    "ro": "Funcționari administrativi",
+                    "da": "Almindeligt kontor- og kundeservicearbejde",
+                    "nl": "Administratief personeel"
+                },
+                "code": "4",
+                "codes": [
+                    {
+                        "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+                        "value": "4"
+                    },
+                    {
+                        "datatype": "",
+                        "value": "4"
+                    }
+                ],
+                "description": {
+                    "en": {
+                        "literal": "Clerical support workers record, organize, store, compute and retrieve information, and perform a number of clerical duties in connection with money-handling operations, travel arrangements, requests for information, and appointments.  Competent performance in most occupations in this major group requires skills at the second ISCO skill level.\nTasks performed by clerical support workers usually include: stenography, typing, and operating word processors and other office machines; entering data into computers; carrying out secretarial duties; recording and computing numerical data; keeping records relating to stocks, production and transport; keeping records relating to passenger and freight transport; carrying out clerical duties in libraries; filing documents; carrying out duties in connection with  mail services; preparing and checking material for printing; assisting persons who cannot read or write with correspondence; performing money-handling operations; dealing with travel arrangements; supplying information requested by clients and making appointments; operating a telephone switchboard.  Supervision of other workers may be included.\nOccupations in this major group are classified into the following sub-major groups:\n41 General and Keyboard Clerks\n42 Customer Services Clerks\n43 Numerical and Material Recording Clerks\n44 Other Clerical Support Workers\n",
+                        "mimetype": "plain/text"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4&language=en",
+                        "uri": "http://data.europa.eu/esco/isco/C4",
+                        "title": "Clerical support workers"
+                    },
+                    "isTopConceptInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        }
+                    ],
+                    "isInScheme": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+                            "title": "ISCO 2008"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+                            "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+                            "title": "ESCO Occupations"
+                        }
+                    ],
+                    "narrowerConcept": [
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C41&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C41",
+                            "title": "General and keyboard clerks",
+                            "code": "41"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C43&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C43",
+                            "title": "Numerical and material recording clerks",
+                            "code": "43"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C42&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C42",
+                            "title": "Customer services clerks",
+                            "code": "42"
+                        },
+                        {
+                            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C44&language=en",
+                            "uri": "http://data.europa.eu/esco/isco/C44",
+                            "title": "Other clerical support workers",
+                            "code": "44"
+                        }
+                    ]
+                },
+                "_embedded": {}
+            }
+        ]
+    }
+}

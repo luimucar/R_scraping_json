@@ -1,0 +1,56 @@
+{
+    "className": "Concept",
+    "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+    "uri": "http://data.europa.eu/esco/skill-type/knowledge",
+    "title": "knowledge",
+    "preferredLabel": {
+        "de": "Kenntnisse",
+        "no": "kunnskap",
+        "fi": "tiedot",
+        "pt": "conhecimento",
+        "bg": "знание",
+        "lt": "žinios",
+        "lv": "zināšanas",
+        "hr": "znanje",
+        "fr": "savoir",
+        "hu": "tudáselem",
+        "sk": "znalosť",
+        "sl": "znanje",
+        "ga": "eolas",
+        "sv": "kunskap",
+        "el": "γνώση",
+        "mt": "għarfien",
+        "en": "knowledge",
+        "is": "þekking",
+        "it": "conoscenza",
+        "es": "conocimiento",
+        "et": "teadmised",
+        "cs": "znalost",
+        "pl": "wiedza",
+        "da": "viden",
+        "ro": "cunoștințe",
+        "nl": "kennis"
+    },
+    "_links": {
+        "self": {
+            "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/skill-type/knowledge&language=en",
+            "uri": "http://data.europa.eu/esco/skill-type/knowledge",
+            "title": "knowledge"
+        },
+        "isTopConceptInScheme": [
+            {
+                "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/skill-competence-type&language=en",
+                "uri": "http://data.europa.eu/esco/concept-scheme/skill-competence-type",
+                "title": "ESCO Skill Pillar concept (sub-) Types"
+            }
+        ],
+        "isInScheme": [
+            {
+                "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/skill-competence-type&language=en",
+                "uri": "http://data.europa.eu/esco/concept-scheme/skill-competence-type",
+                "title": "ESCO Skill Pillar concept (sub-) Types"
+            }
+        ]
+    },
+    "_embedded": {}
+}
