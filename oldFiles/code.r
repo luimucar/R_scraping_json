@@ -39,3 +39,7 @@ result$"_embedded"$hasTopConcept[1][[1]]$title
 result$"_embedded"$hasTopConcept[2][[1]]$title
 result$"_embedded"$hasTopConcept[2][[1]]$title
 result$"_embedded"$hasTopConcept[2][[1]]$title
+ eval(parse(text=paste("result$\"_embedded\"$hasTopConcept[3][[1]]$title")))
+
+
+  eval(parse(text=paste("result$\"_links\"$\"next\"$href")))
