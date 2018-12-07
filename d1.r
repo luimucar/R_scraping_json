@@ -5,12 +5,16 @@ library("rjson")
 fileNumber <- 1
 
 fileCSV1 <- paste("skills_",fileNumber,".csv", sep="")
+fileLOG <- "logURL.csv"
 dataSkills <- data.frame("title", "description", "skillType", "uri", stringsAsFactors = FALSE)
+dataUrls <- data.frame("URLs", stringsAsFactors = FALSE)
+
 
 callURL <- "https://ec.europa.eu/esco/api/resource/related/?uri=http://data.europa.eu/esco/concept-scheme/skills&relation=hasTopConcept&language=en&full=true"
 
 repeat{
-    cat("Download: ",callURL,"\n")
+    dataUrls <- rbind(dataUrls,list(callURL))
+
     jsonFile = paste("skills_",fileNumber,".json",sep="")
     download.file(callURL, jsonFile)
     result <- fromJSON(file = jsonFile)
@@ -36,10 +40,10 @@ repeat{
     callURL <- eval(parse(text=paste("result$\"_links\"$\"next\"$href")))
     fileNumber <- fileNumber + 1
     #if(is.null(call)){
-    if(callURL!="4"){
+    if(fileNumber>1000){
         break
     }
 }
-
+write.table(dataUrls, file = fileLOG,row.names=FALSE, na="",col.names=FALSE, sep=";")
 write.table(dataSkills, file = fileCSV1,row.names=FALSE, na="",col.names=FALSE, sep=";")
 
